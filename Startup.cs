@@ -39,6 +39,8 @@ namespace netcore.example.webapi.basic
             {
                 endpoints.MapControllers();
             });
+
+            app.UseStaticFiles();
         }
     }
 }
